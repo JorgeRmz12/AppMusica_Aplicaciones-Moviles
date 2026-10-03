@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "music-app-js",
-    "slug": "music-app-js",
+    "name": "AppMusica",
+    "slug": "app-musica",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,6 +19,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-audio"
+    ]
   }
 }
